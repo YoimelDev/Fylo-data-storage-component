@@ -67,6 +67,19 @@ body {
 .storage span {
   color: var(--paleBlue);
 }
+.storage__progress {
+  background-color: var(--veryDarkBlue);
+  display: block;
+  border-radius: 01rem;
+}
+.storage__progress__size {
+  width: 80%;
+  background-color: var(--gradient);
+}
+.circle {
+  border-radius: 50%;
+  background-color: var(--paleBlue);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
