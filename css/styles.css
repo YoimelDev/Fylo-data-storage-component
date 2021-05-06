@@ -1,0 +1,77 @@
+:root {
+  --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+  --paleBlue: hsl(243, 100%, 93%);
+  --grayishBlue: hsl(229, 7%, 55%);
+  --darkBlue: hsl(228, 56%, 26%);
+  --veryDarkBlue: hsl(229, 57%, 11%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem =10px*/
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+  background-color: var(--veryDarkBlue);
+  background-image: url(../images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-size: 1.4rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fylo {
+  width: 34rem;
+  padding: 5rem 4rem;
+  background-color: var(--darkBlue);
+  border-radius: 1rem 10rem 1rem 1rem;
+}
+.fylo--icon {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.fylo__icon {
+  background-color: var(--veryDarkBlue);
+  height: 5rem;
+  width: 5rem;
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.storage {
+  width: 34rem;
+  margin-top: 2rem;
+  padding: 1.5rem 4rem;
+  border-radius: 1rem;
+  background-color: var(--darkBlue);
+}
+.storage p {
+  color: var(--grayishBlue);
+}
+.storage span {
+  color: var(--paleBlue);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
