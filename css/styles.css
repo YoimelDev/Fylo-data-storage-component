@@ -25,7 +25,6 @@ body {
 }
 
 main {
-  background-color: var(--veryDarkBlue);
   background-image: url(../images/bg-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,4 +149,79 @@ main {
 }
 
 @media (min-width: 1440px) {
+  main {
+    background-color: var(--veryDarkBlue);
+    background-image: url(../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .storage {
+    width: 60rem;
+    padding: 2rem 4rem 3rem 4rem;
+    border-radius: 1rem;
+    background-color: var(--darkBlue);
+  }
+  .storage p {
+    text-align: center;
+    color: var(--grayishBlue);
+  }
+  .storage span {
+    color: var(--paleBlue);
+    font-weight: 700;
+  }
+  .border {
+    border-radius: 01rem;
+  }
+  .storage__progress {
+    background-color: var(--veryDarkBlue);
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+  }
+  .storage__progress__size {
+    background: var(--gradient);
+    height: 1.4rem;
+    margin-left: 0.3rem;
+    width: 72%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .circle {
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+    background-color: var(--paleBlue);
+  }
+  .storage--date {
+    display: flex;
+    justify-content: space-between;
+  }
+  .storage--date p {
+    color: var(--paleBlue);
+    font-weight: 700;
+  }
+  .dateGB {
+    margin-right: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .dateGB span {
+    color: var(--veryDarkBlue);
+    font-size: 4rem;
+  }
+  .dateGB p {
+    color: var(--grayishBlue);
+  }
 }
