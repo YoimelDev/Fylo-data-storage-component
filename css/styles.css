@@ -18,19 +18,23 @@ html {
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
   margin: 0;
 
+  font-size: 1.4rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
   background-color: var(--veryDarkBlue);
   background-image: url(../images/bg-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
 
-  font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
 }
 
 .fylo {
@@ -106,7 +110,7 @@ body {
 }
 .dateGB {
   background-color: #fff;
-  width: 50%;
+  width: 18rem;
   margin: 0 auto;
   margin-top: -3rem;
   font-weight: 700;
@@ -123,11 +127,27 @@ body {
 .dateGB p {
   color: var(--grayishBlue);
 }
+
+/* Footer */
+.footer {
+  height: 5vh;
+  background-color: var(--paleBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
+  text-decoration: none;
   color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1440px) {
 }
