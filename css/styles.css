@@ -1,5 +1,5 @@
 :root {
-  --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+  --gradient: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   --paleBlue: hsl(243, 100%, 93%);
   --grayishBlue: hsl(229, 7%, 55%);
   --darkBlue: hsl(228, 56%, 26%);
@@ -35,7 +35,7 @@ body {
 
 .fylo {
   width: 34rem;
-  padding: 5rem 4rem;
+  padding: 4rem 4rem;
   background-color: var(--darkBlue);
   border-radius: 1rem 10rem 1rem 1rem;
 }
@@ -57,28 +57,71 @@ body {
 .storage {
   width: 34rem;
   margin-top: 2rem;
-  padding: 1.5rem 4rem;
+  padding: 2rem 4rem 3rem 4rem;
   border-radius: 1rem;
   background-color: var(--darkBlue);
 }
 .storage p {
+  text-align: center;
   color: var(--grayishBlue);
 }
 .storage span {
   color: var(--paleBlue);
+  font-weight: 700;
+}
+.border {
+  border-radius: 01rem;
 }
 .storage__progress {
   background-color: var(--veryDarkBlue);
-  display: block;
-  border-radius: 01rem;
+  height: 2rem;
+
+  display: flex;
+  align-items: center;
 }
 .storage__progress__size {
-  width: 80%;
-  background-color: var(--gradient);
+  background: var(--gradient);
+  height: 1.4rem;
+  margin-left: 0.3rem;
+  width: 72%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .circle {
   border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.3rem;
   background-color: var(--paleBlue);
+}
+.storage--date {
+  display: flex;
+  justify-content: space-between;
+}
+.storage--date p {
+  color: var(--paleBlue);
+  font-weight: 700;
+}
+.dateGB {
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: -3rem;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.dateGB span {
+  color: var(--veryDarkBlue);
+  font-size: 4rem;
+}
+.dateGB p {
+  color: var(--grayishBlue);
 }
 .attribution {
   font-size: 11px;
