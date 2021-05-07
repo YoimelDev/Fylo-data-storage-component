@@ -1,8 +1,8 @@
-# Fylo Data Storage component
+# Frontend Mentor - Fylo data storage component solution
 
 ## ✍🏻 Description
 
-This is a challenge from [Frontend-Mentor](https://www.frontendmentor.io/), where i put into practice my CSS skills, trying to make it as close as possible to the design provided.
+[Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n), where i put into practice my CSS skills, trying to make it as close as possible to the design provided.
 
 ## 🎨 Preview
 
