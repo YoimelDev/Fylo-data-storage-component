@@ -2,10 +2,29 @@
 
 ## ✍🏻 Description
 
-This is a challenge from [Frontend-Mentor](https://www.frontendmentor.io/). I improved my CSS skills with this challenge and I am very proud of the final result.
+This is a challenge from [Frontend-Mentor](https://www.frontendmentor.io/), where i put into practice my CSS skills, trying to make it as close as possible to the design provided.
 
-## 🚀 Getting Started
+## 🎨 Preview
 
-Only you need download the project and open index.html. That's it.
+You can see the result here → [Fylo Data Storage component](https://fylo-data-storage-component-yoimeldev.netlify.app/)
 
-You can see the result here → [Data Storage Component]()
+<details>
+    <summary>🖥️ Desktop version</summary>
+
+![](./images/Desktop.PNG)
+
+</details>
+
+<details>
+    <summary>📱 Mobile version</summary>
+
+![](./images/Mobile.png)
+
+</details>
+
+## :computer: Technologies
+
+- HTML5
+- CSS
+- Flexbox
+- Mobile-first workflow
