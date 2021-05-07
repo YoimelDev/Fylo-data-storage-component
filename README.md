@@ -18,7 +18,7 @@ You can see the result here → [Fylo Data Storage component](https://fylo-data-
 <details>
     <summary>📱 Mobile version</summary>
 
-![](./images/Mobile.png)
+![](./images/Mobile.PNG)
 
 </details>
 
