@@ -19,18 +19,15 @@ html {
 
 body {
   margin: 0;
-
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
 }
 
 main {
   background-image: url(../images/bg-mobile.png);
-  background-repeat: no-repeat;
   background-size: cover;
 
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 95vh;
@@ -139,7 +136,6 @@ main {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   text-decoration: none;
   color: hsl(228, 45%, 44%);
@@ -157,71 +153,33 @@ main {
     background-position: bottom;
 
     flex-direction: row;
-    align-items: center;
     gap: 3rem;
   }
 
+  .desktop {
+    display: flex;
+    align-items: flex-end;
+    gap: 3rem;
+    margin-bottom: 5rem;
+  }
   .storage {
-    width: 60rem;
-    padding: 2rem 4rem 3rem 4rem;
-    border-radius: 1rem;
-    background-color: var(--darkBlue);
+    width: 55rem;
+    height: 15rem;
   }
   .storage p {
-    text-align: center;
-    color: var(--grayishBlue);
-  }
-  .storage span {
-    color: var(--paleBlue);
-    font-weight: 700;
-  }
-  .border {
-    border-radius: 01rem;
-  }
-  .storage__progress {
-    background-color: var(--veryDarkBlue);
-    height: 2rem;
-
-    display: flex;
-    align-items: center;
-  }
-  .storage__progress__size {
-    background: var(--gradient);
-    height: 1.4rem;
-    margin-left: 0.3rem;
-    width: 72%;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .circle {
-    border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
-    margin-right: 0.3rem;
-    background-color: var(--paleBlue);
-  }
-  .storage--date {
-    display: flex;
-    justify-content: space-between;
-  }
-  .storage--date p {
-    color: var(--paleBlue);
-    font-weight: 700;
+    text-align: left;
   }
   .dateGB {
-    margin-right: 50rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    position: absolute;
+    margin-left: 70rem;
+    margin-bottom: 13rem;
   }
-  .dateGB span {
-    color: var(--veryDarkBlue);
-    font-size: 4rem;
-  }
-  .dateGB p {
-    color: var(--grayishBlue);
+  .dateGB--aux {
+    position: absolute;
+    margin-left: 84rem;
+    margin-bottom: 11rem;
+    border: 20px solid transparent;
+    border-right: 20px solid white;
+    border-top: 20px solid white;
   }
 }
